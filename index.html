@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>HTML com JS</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Validando números</h1>
+        <h2>Com JavaScript</h2>
+    <form id="validar-form">
+        <input type="number" id="NA"  required placeholder="Primeiro Número"/>
+        <input type="number" id="NB" required placeholder="Segundo Número"/>
+        <p class="error-message">
+            O valor do Segundo precisa ser maior que o valor do Primeiro 
+        </p>
+        <button type="submit" id="validar">Verificar</button>
+    </form>
+    <p class="mensagemSucesso">
+        Formulario verificado com sucesso! O valor do <b>Primeiro</b> é menor que o do <b>Segundo</b>! 
+    </p>
+    </div>
+    <script src="./style.js"></script>
+</body>
+</html>
